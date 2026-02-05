@@ -12,9 +12,11 @@
     "format:check": "prettier --check .",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "prepare": "husky"
+    "prepare": "husky",
+    "chromatic": "npx chromatic"
   },
   "dependencies": {
+    "chromatic": "^15.0.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.563.0",
